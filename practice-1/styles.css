@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    /* height: 100vh; */
+}
+
+.navbar{
+    width: 100vw;
+    height: 80px;
+    background-color: #002F34;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+.navbar h1 span{
+    color: #FF6F00;
+}
+.navbar ul{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.navbar ul li{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+
+.navbar ul li a:hover{
+    color : #FF6F00;
+    transition: 0.2s ease-in-out;
+}
+main{
+    height: 90vh;
+}
+
+.bg{
+    width: 100%;
+    height: 100%;
+    color:white;
+    background-image: url("https://rlavinsh.github.io/p-1/assets/header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+.container{
+    width: 50%;
+    height: 100%;
+    background-color: #16262da8;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: start;
+    padding-left:400px;
+    padding-right: 10px;
+    
+    gap: 50px;
+}
+
+.container h1{
+    font-size: 5rem;
+}
+.container .first{
+    font-weight: lighter;
+}
+.container .second{
+    font-weight: 900;
+}
+.container span{
+    color: orange;
+}
+.container .search{
+   display: flex;
+   gap: 0;
+}
+.container .search input{
+    height: 40px;
+    width: 300px;
+    border: none;
+    
+    padding: 10px;
+}
+.container .search button{
+    height: 41px;
+    width: 40px;
+    gap: 0;
+    background-color: orange;
+    color: white;
+    border: none;
+}
